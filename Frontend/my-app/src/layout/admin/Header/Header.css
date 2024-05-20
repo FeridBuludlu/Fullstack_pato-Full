@@ -1,0 +1,40 @@
+.Header_middle {
+   ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 50px;
+    flex-wrap: wrap;
+
+
+    li a {
+        text-decoration: none;
+        color: white;
+    }
+    }
+}
+.Header_main {
+
+    top: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.Header_right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    i {
+        color: white;
+
+    }
+}

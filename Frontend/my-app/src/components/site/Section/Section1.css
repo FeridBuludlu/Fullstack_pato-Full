@@ -1,0 +1,37 @@
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .words{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    h4{
+        font-family: "Courgette", cursive;
+        font-size: 30px;
+        color: red;
+    }
+    h2{
+        font-family: "Poppins", sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+    }
+    p{
+        color: #666666;
+    }
+    a{
+        text-decoration: none;
+        color:#666666;
+        font-size: 12px;
+    }
+    }
+    .image img{
+        width: 400px;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,33 @@
+.section2{
+    position: relative;
+    background-image: url("https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg.webp");
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    .text{
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        h4{
+            font-family: "Courgette", cursive;
+            font-size: 30px;
+            color: red;
+        }
+        h2{
+            font-family: "Poppins", sans-serif;
+            color: white;
+            font-size: 50px;
+            font-weight: 700;
+            letter-spacing: 6px;
+            text-transform: uppercase;
+        }
+    }
+}
