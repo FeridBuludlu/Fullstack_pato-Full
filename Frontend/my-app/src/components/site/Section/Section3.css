@@ -1,0 +1,64 @@
+.Text_review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  
+  .Text_review h4 {
+    font-family: "Courgette", cursive;
+    font-size: 30px;
+    color: red;
+  }
+  
+  .Text_review h2 {
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  }
+  
+  .carousel_m1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .carousel_m1 img {
+    border: 4px solid red;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 50%;
+  }
+  
+  .carousel_m1 .star i {
+    color: gold;
+  }
+  
+  .carousel_m1 p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.7;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    color: black;
+  }
+  .prev{
+    font-size: 30px;
+  }
+  .next{
+    font-size: 30px;
+  }

@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import MainContext from "../../../context/context";
 
 const Card = () => {
-  const { data } = useContext(MainContext);
+  const { data, addToBasket } = useContext(MainContext);
+
   console.log(data);
   return (
     <div classNameName="container">
@@ -21,7 +22,14 @@ const Card = () => {
                     <Link to={`/detail/${item._id}`}>
                       Learn More <i class="fa-solid fa-arrow-right"></i>
                     </Link>
-                    <Link className="btn btn-primary">Add to basket</Link>
+                    <button
+                      className="btn btn-primary"
+                      onClick={() => {
+                        addToBasket(item._id);
+                      }}
+                    >
+                      Add to basket
+                    </button>
                   </div>
                 </div>
               </div>

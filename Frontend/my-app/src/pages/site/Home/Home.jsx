@@ -11,8 +11,8 @@ const Home = () => {
       <Carousel />
       <Section1/>
       <Section2/>
+      <Card/>
       <Section3/>
-      <Card />
     </div>
   );
 };
